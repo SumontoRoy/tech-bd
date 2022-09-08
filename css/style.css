@@ -26,3 +26,9 @@ body {
     transform: translate(-50%, -50%); */
     z-index: 1;
 }
+/* footer part start */
+
+.footer-icon{
+    background-color: #464545;
+}
+/* footer part end */
