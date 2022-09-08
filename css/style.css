@@ -1,4 +1,28 @@
 /* common css */
-body{
+body {
     font-family: 'Poppins', sans-serif;
+}
+
+/* banner part start */
+/* banner part end */
+.carousel-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.banner-image {
+    /* position: relative; */
+}
+
+.banner-content {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    z-index: 1;
 }
